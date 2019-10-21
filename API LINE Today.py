@@ -40,10 +40,10 @@ class scrapeFirst(scrapy.Spider):
     custom_settings={ 'FEED_URI': "output_http_server.json", 'FEED_FORMAT': 'json'}
 
     def parse(self, response):
-        for row in response.css(""):
+        for row in response.css("https://today.line-scdn.net/dist/pc_main.668ca990983967c8a2f8.css"):
             yield { 
-                "id"     : self.index, "kategori"   : row.css("").get(), "judul"   : row.css("").get(),
-                 "konten"  : row.css("div.").get()
+                "id"     : self.index, "kategori"   : row.css("//*[@id="header"]/div").get(), "judul"   : row.css("//*[@id="left_area"]/div[1]/div/a/div").get(),
+                 "konten"  : row.css("//*[@id="wrap"]/div[2]").get()
                 }
             self.index = self.index + 1
 
