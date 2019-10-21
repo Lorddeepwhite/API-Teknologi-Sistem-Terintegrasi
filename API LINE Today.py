@@ -21,7 +21,7 @@ from urllib.parse import urlparse
 
 #define class Scraper Data dari website-website berita
 class scrapeFirst(scrapy.Spider):
-    name = "info"
+    name = "line"
     index = 1
 
     def start_requests(self):
@@ -42,8 +42,8 @@ class scrapeFirst(scrapy.Spider):
     def parse(self, response):
         for row in response.css(""):
             yield { 
-                "id"     : self.index, "Kategori Berita"   : row.css("").get(), "Judul Berita"   : row.css("").get(),
-                "Gambar Berita" : row.css("").get(), "Konten Berita"  : row.css("div.").get()
+                "id"     : self.index, "kategori"   : row.css("").get(), "judul"   : row.css("").get(),
+                 "konten"  : row.css("div.").get()
                 }
             self.index = self.index + 1
 
@@ -72,7 +72,7 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
         parsed_query = urlparse(self.path)
         path = parsed_query.path
         query = parsed_query.query
-        if path == '/info' :
+        if path == '/line' :
             if query == '' :
                 #penangan request tanpa query
                 self.send_response(200)
@@ -102,7 +102,7 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
         parsed_query = urlparse(self.path)
         path = parsed_query.path
         query = parsed_query.query
-        if path == '/info' :
+        if path == '/line' :
             if query == '' :
                 #penangan request tanpa query
                 self.send_response(404)
@@ -141,7 +141,7 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
     def do_POST(self):
         parsed_query = urlparse(self.path)
         path = parsed_query.path
-        if path == '/info' :
+        if path == '/line' :
             length = int(self.headers.get("Content-length",0))
             raw_post_body = self.rfile.read(length)
             str_post_body = raw_post_body.decode("utf-8")
@@ -161,7 +161,7 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
         parsed_query = urlparse(self.path)
         path = parsed_query.path
         query = parsed_query.query
-        if path == '/info' :
+        if path == '/line' :
             if query == '' :
                 #request handling tanpa query
                 self.send_response(404)
