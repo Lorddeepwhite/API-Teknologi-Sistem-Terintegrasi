@@ -22,9 +22,7 @@
             <div class="main">
                 <h2>About Us</h2>
 
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa unde ipsam nemo, dolore laboriosam explicabo illum necessitatibus recusandae ullam dolorem pariatur, impedit maxime vero? Ullam quisquam adipisci quaerat dolorem dolore?</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam libero distinctio doloribus alias, nostrum enitur ex officiis ea quae! Eum sunt laudantium, id nisi repudiandae molestias!</p>
+                <p>Project web music billboard was made by Ihsan Faishal Rasyid and Yusron Taufiq Anfasa.</p>
             </div>
 
 
