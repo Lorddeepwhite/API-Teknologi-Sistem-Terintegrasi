@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1 class="judul">My Website</h1>
+            <h1 class="judul">Billboard Top List Songs Lyric Provider</h1>
             <ul>
                 <li><a href="home.php">Home</a></li>
                 <li><a href="toplist.php">Billboard TopList</a></li>
