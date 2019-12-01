@@ -42,9 +42,16 @@ CREATE TABLE `song` (
 --
 
 INSERT INTO `song` (`song_id`, `title`, `artist`, `album`, `year`, `rating`) VALUES
-(6, 'Indonesia Raya', 'Ridwan', 'Album Lagu Wajib', 1945, 4.8),
-(7, 'Best Day Ever', 'SpongeBob', 'SpongeBob BestDay', 2008, 4.5);
-
+(1, 'Circles', 'Post Malone', 'Circles', 2019, 4.8),
+(2, 'Someone You Loved', 'Lewis Capaldi', 'Breach', 2018, 4.5),
+(3, 'Good As Hell', 'Lizzo', 'Lizzo', 2016, 4.6),
+(4, 'Memories', 'Maroon Five', 'Memories', 2019, 4.7),
+(5, 'Lose You to Love Me', 'Selena Gomez', 'Lose You to Love Me', 2019, 4.5),
+(6, 'Senorita', 'Shawn Mendes', 'Senorita', 2019, 4.9),
+(7, 'No Guidance', 'Chris Brown', 'No Guidance', 2019, 4.5),
+(8, 'Everything I Wanted', 'Billie Eilish', 'Everything I Wanted', 2019, 4.7),
+(9, '10,000 Hours', 'Justin Bieber', '10,000 Hours', 2019, 4.7),
+(10, 'Truth Hurts', 'Lizzo', 'Truth Hurts', 2017, 4.9);
 --
 -- Indexes for dumped tables
 --
