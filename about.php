@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1 class="judul"Billboard Top List Songs Lyric Provider</h1>
+            <h1 class="judul">My Website</h1>
             <ul>
                 <li><a href="home.php">Home</a></li>
                 <li><a href="toplist.php">Billboard TopList</a></li>
@@ -22,7 +22,9 @@
             <div class="main">
                 <h2>About Us</h2>
 
-                <p>Project web music billboard was made by Ihsan Faishal Rasyid and Yusron Taufiq Anfasa.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa unde ipsam nemo, dolore laboriosam explicabo illum necessitatibus recusandae ullam dolorem pariatur, impedit maxime vero? Ullam quisquam adipisci quaerat dolorem dolore?</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam libero distinctio doloribus alias, nostrum enitur ex officiis ea quae! Eum sunt laudantium, id nisi repudiandae molestias!</p>
             </div>
 
 
