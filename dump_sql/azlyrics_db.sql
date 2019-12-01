@@ -45,7 +45,71 @@ INSERT INTO `lyric` (`song_id`, `lyric`) VALUES
 (1, 'Indonesia Tanah Airku <br> Tanah Tumpah Datrahku'),
 (1, 'Indonesia Tanah Airku <br> Tanah Tumpah Datrahku'),
 (1, 'Indonesia Tanah Airku <br> Tanah Tumpah Datrahku'),
-(8, 'Indonesia Tanah Airku <br> Tanah Tumpah Datrahku'),
+(8, "I had a dream <br>
+I got everything I wanted <br>
+Not what you'd think <br>
+And if I'm being honest <br>
+<br>
+It might have been a nightmare <br>
+To anyone who might care <br>
+<br>
+Thought I could fly <br>
+So I stepped off the golden <br>
+Nobody cried <br>
+Nobody even noticed <br>
+<br>
+I saw them standing right there <br>
+Kinda thought they might care <br>
+<br>
+I had a dream <br>
+I got everything I wanted <br>
+But when I wake up, I see <br>
+You with me <br>
+<br>
+And you say <br>
+As long as I'm here <br>
+No one can hurt you <br>
+Don't wanna lie here <br>
+But you can learn to <br>
+If I could change the way that you see yourself <br>
+You wouldn't wonder why you hear <br>
+""They don't deserve you"" <br>
+<br>
+I tried to scream <br>
+But my head was under water <br>
+They called me weak <br>
+Like I'm not just somebody's daughter <br>
+<br>
+Could've been a nightmare <br>
+But it felt like they were right there <br>
+And it feels like yesterday was a year ago <br>
+But I don't wanna let anybody know <br>
+'Cause everybody wants something from me now <br>
+And I don't wanna let 'em down <br>
+<br>
+I had a dream <br>
+I got everything I wanted <br>
+But when I wake up, I see <br>
+You with me <br>
+<br>
+And you say <br>
+As long as I'm here <br>
+No one can hurt you <br>
+Don't wanna lie here <br>
+But you can learn to <br>
+If I could change the way that you see yourself <br>
+You wouldn't wonder why you hear <br>
+""They don't deserve you"" <br>
+<br>
+If I knew it all then, would I do it again? <br>
+Would I do it again? <br>
+If they knew what they said would go straight to my head <br>
+What would they say instead? <br>
+<br>
+If I knew it all then, would I do it again? <br>
+Would I do it again? <br>
+If they knew what they said would go straight to my head <br>
+What would they say instead?"),
 
 (9, "Do you love the rain? Does it make you dance <br>
 When you're drunk with your friends at a party? <br>
@@ -91,8 +155,7 @@ I'm gonna love you, yeah (Ooh) <br>
 <br>
 And I'm (Do you love the rain? Does it make you dance) <br>
 Gonna love you (I'm gonna love) <br>
-I'm Gonna love you
-"),
+I'm Gonna love you"),
 
 (10, "Why're men great 'til they gotta be great? <br>
 Woo <br>
