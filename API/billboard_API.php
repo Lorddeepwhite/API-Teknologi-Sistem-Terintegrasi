@@ -1,8 +1,8 @@
 <?php
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'billboard_db');
+define('DB_USER', 'id11792118_billboard_user');
+define('DB_PASS', 'billboard');
+define('DB_NAME', 'id11792118_billboard_db');
 
 class Database
 {

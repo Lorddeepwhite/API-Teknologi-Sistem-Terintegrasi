@@ -1,8 +1,8 @@
 <?php
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'azlyrics_db');
+define('DB_USER', 'id11792118_azlyrics_user');
+define('DB_PASS', 'azlyrics');
+define('DB_NAME', 'id11792118_azlyrics_db');
 
 class Database
 {
